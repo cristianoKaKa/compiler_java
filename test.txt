@@ -1,0 +1,9 @@
+ORIGIN IS (100,100);
+ROT IS PI/2;
+SCALE IS (100,100/3);
+FOR T FROM 0 TO 2*PI STEP PI/500 DRAW (cos(T),sin(T));      --画椭圆
+SCALE IS (10,10);
+FOR T FROM 0 TO 2*PI STEP PI/500 DRAW (cos(T),sin(T));      //画圆
+ORIGIN IS (0,0);
+SCALE IS (1,1);
+FOR T FROM 0 TO 300 STEP 0.1 DRAW (-T,T);                   //画直线
